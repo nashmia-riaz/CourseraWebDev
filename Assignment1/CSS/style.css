@@ -2,7 +2,7 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-  font-family: "Verdana",Arial, sans-serif;
+  font-family: "Comic Sans MS",Arial, sans-serif;
   margin:0px;
   padding:0px;
 }
@@ -14,7 +14,6 @@ h1 {
 }
 
 p {
-  font-family: Helvetica;
   color: white;
   padding:10px;
   clear:right;
@@ -37,8 +36,8 @@ div#text{
   padding:0px;
 }
 
-.food{
-  border: 2px black solid;
+.title{
+  border: 1px black solid;
   background-color: #DEB887;
   color: black;
   float:right;
