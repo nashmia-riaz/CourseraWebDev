@@ -1,6 +1,6 @@
-.navbar-brand a:hover, .navbar-brand a:focus {
+/*.navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
-}
+}*/
 /** HEADER **/
 #header-nav {
   background-color: #330066;
@@ -8,23 +8,29 @@
   border: 0;
 }
 
-#Menu-title{
-	text-align: center;
-}
-
 #navbar-name{
 	color:white;
+	text-align: left;
 }
 
 #navbar-list a{
 	color:white;
 }
 
+#navbar-list a:hover{
+	background-color: #8c1aff;
+}
+
 div#Chicken, div#Beef, div#Sushi{
-	border: black solid 1px;
-	margin-bottom:20px;
-	padding: 0px 10px 10px 10px;
+	margin-bottom:25px;
+	padding: 10px;
 	background: #e5ccff;
+}
+
+div#Chicken h2, div#Beef h2, div#Sushi h2{
+	text-align: center;
+	margin:0px;
+	margin-bottom: 5px;
 }
 
 div#BTP{
