@@ -1,0 +1,43 @@
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #330066;
+  border-radius: 0;
+  border: 0;
+}
+
+#Menu-title{
+	text-align: center;
+}
+
+#navbar-name{
+	color:white;
+}
+
+#navbar-list a{
+	color:white;
+}
+
+div#Chicken, div#Beef, div#Sushi{
+	border: black solid 1px;
+	margin-bottom:20px;
+	padding: 0px 10px 10px 10px;
+	background: #e5ccff;
+}
+
+div#BTP{
+	text-align: center;
+	margin-bottom: 15px;
+}
+div#BTP a{
+	text-align: center;
+	background:#330066;
+	color:white;
+	padding:10px;
+}
+
+div#BTP a:hover{
+	text-decoration: none;
+}
